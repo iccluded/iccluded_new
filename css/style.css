@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
+
 body {
     background: linear-gradient(90deg, #000428 0%, #004E92 100%);
 }
@@ -14,7 +16,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .container 
@@ -67,7 +69,7 @@ body {
     left: 0;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to left, rgba(255,255,255,0.15), transparent);
+    background: linear-gradient(to left, rgba(255,255,255,0.10), transparent);
     transform: skewX(45deg) translateX(0);
     transition: 0.5s;
 }
